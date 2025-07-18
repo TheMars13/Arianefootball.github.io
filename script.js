@@ -110,7 +110,7 @@
              // Top Scorer
     function renderScorers(scorers) {
       const headers = scorers[0];
-      const topFive = scorers.slice(1).sort((a, b) => b[1] - a[1]).slice(0, 5);
+      const topFive = scorers.slice(1).sort((a, b) => b[1] - a[1]).slice(0, 12);
 
       const table = document.createElement("table");
       table.innerHTML = `
