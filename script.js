@@ -16,7 +16,9 @@ function renderMatches(matches) {
         "3": document.getElementById("round3"),
         "4": document.getElementById("round4"),
         "5": document.getElementById("round5"),
-        "6": document.getElementById("round6")
+        "6": document.getElementById("round6"),
+        "7": document.getElementById("semi-final"),
+        "8": document.getElementById("final-round")
     };
 
     const teamMap = {
